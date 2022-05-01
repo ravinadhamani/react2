@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,500;1,500&display=swap');
+
+
+#logo{
+  font-size: 33.6px;
+  font-family: Raleway, sans-serif;
+  width: 130px;
+  height: 37px;
+  color: #0084FF;
+  position: relative;
+  left: 80px;
+  top: 20px;
+}
+#logo-stories{
+  font-size: 14px;
+  font-family: Raleway, sans-serif;
+  width: 130px;
+  height: 12px;
+  padding: 0px;
+  color: black;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  
+  box-shadow: 1px 1px 1px rgb(167, 165, 165);
+}
+
+#explore-categories{
+  color: black;
+  position: relative;
+  left: 140px;
+  top: 20px;
+}
+
+#dropdown{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 160px;
+    top: 25px;
+    font-size: 14px;
+    font-family: OpenSans, sans-serif;
+    
+}
+
+#learning{
+    position: relative;
+    left: 350px;
+    top: 14px;
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+    opacity: 0.7;
+    color: #00000099;
+}
+#learning2{
+    position: relative;
+    left: 66px;
+    top: 30px;
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+    opacity: 0.7;
+    color: #00000099;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    text-transform: capitalize;
+    background: #f2f6ff;
+    
+    font-family: "raleway";
+  }
+  header nav {
+    width: 100%;
+    background-color: #fff;
+    padding: 16px 78px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 3px gray; 
+    font:'raleway';
+  }
+  
+  
+  
+  .categoreies-contanier {
+    width: 75%;
+  
+    font-size: 16px;
+    padding-top: 16px;
+    margin: 10px auto 20px auto;
+  }
+  .heading {
+     font-weight: 600;
+    margin: 0;
+    font-family: Raleway,sans-serif;
+        font-size: 36px;
+  }
+  .filter-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+  .filter-text i {
+    color: #0084ff;
+  }
+  
+  .categories {
+    margin-top: 20px;
+  }
+  .btn {
+    padding: 6px 14px;
+    border: 1px solid #0084ff;
+    text-transform: capitalize;
+    border-radius: 15px;
+    width: auto;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    background-color:#f2f6ff
+  }
+  .btn:hover {
+    background: #0084ff;
+    color: white;
+  }
+  .active {
+    background: #0084ff;
+    color: white;
+  }
+  .card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px auto;
+  }
+  .img-container {
+    width: 100%;
+    height: 176px;
+  }
+  .card {
+    /* width:33.33% ; */
+    /* height: 400px; */
+    background: white;
+    box-shadow: 2px 2px 2px gray;
+    border-radius:5px;
+    font-family: "raleway";
+    border:1px solid gray;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .text-contanier {
+    padding: 10px 24px;
+  }
+  .text-contanier > .titile {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .author {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .author-text {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: #0096ff;
+  }
+  .date {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .card-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 4px 0;
+  }
+  footer{
+      background: #172146;
+      padding: 80px 16%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      color: white;
+  }
+  footer h3{
+      color:
+  #847470;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin: 10px 0;
+  
+  }
+  footer p{
+      margin: 10px 0;
+      font-size: 13px;
+      font-weight: lighter;
+    line-height: 20px;
+  }
+  footer > .email{
+      margin-top: 20;
+  }
+  .social-media{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      
+  }
+  .social-media i,.fa-envelope{
+      font-size: 18px;
+  }
+  small{
+      font-size: 12px;
+     
+  }
+  
+  
+  /* media query */
+  /* small deive */
+  @media screen and (max-width: 768px) {
+    .card-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      margin: 20px auto;
+    }
+    header nav {
+      width: 100%;
+      background-color: #fff;
+      /* padding: 16px 78px; */
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      width: 30px;
+      font-size: 20px;
+      align-items: center;
+    }
+    .logo-story-text {
+      font-size: 15px;
+    }
+    .dropDown-text {
+      font-size: 13px;
+    }
+    .dropDown-text i {
+      padding-bottom: 5px;
+    }
+    .heading {
+      font-size: 24px;
+    }
+    .filter-text {
+      font-size: 12px;
+    }
+     footer{
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+  }
+  
