@@ -14,7 +14,7 @@
   font-weight:900;
 }
 #logo-stories{
-  font-size: 14px;
+  font-size: 16px;
   font-family: Raleway, sans-serif;
   width: 130px;
   height: 12px;
@@ -37,6 +37,21 @@ header{
   position: relative;
   left: 140px;
   top: 20px;
+}
+
+#button-header{
+  position: relative;
+  left: 1010px;
+  bottom: 48px;
+  border: 1px solid ;
+  padding: 14px 24px;
+  border-radius: 22px;
+  background-color: #0084FF;
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  margin: 0px 12px 0px 0px;
+
 }
 
 #dropdown{
