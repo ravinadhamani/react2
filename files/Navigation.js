@@ -9,7 +9,7 @@ function Navigation(){
         <span id="learning">EdYoda is free learning and knowledge</span>
         <span id="learning2">sharing platform for techies</span>
         <p id="logo-stories">Stories</p>
-        
+        <button id="button-header"><b>Go To Main Website</b></button>
       </div>
      
     </header>
