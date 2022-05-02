@@ -3,31 +3,31 @@ import './styles.css'
 //main -->
 function Main(){
   return(
-<main class="categoreies-contanier">
-<h1 class="heading">trending post</h1>
-<p class="filter-text">
-  <i class="fas fa-filter"></i> filter by category
+<main className="categoreies-contanier">
+<h1 className="heading">trending post</h1>
+<p className="filter-text">
+  <i className="fas fa-filter"></i> filter by category
 </p>
 
 
 
-<div class="categories">
-  <button class="btn active">all</button>
-  <button class="btn">artifical inteligence</button>
-  <button class="btn">cloud computing</button>
-  <button class="btn">dev Ops</button>
-  <button class="btn">programing languages</button>
-  <button class="btn">mobile appliction development</button>
-  <button class="btn">technology and tools</button>
-  <button class="btn">get a job in a tech company</button>
-  <button class="btn">others</button>
+<div className="categories">
+  <button className="btn active">all</button>
+  <button className="btn">artifical inteligence</button>
+  <button className="btn">cloud computing</button>
+  <button className="btn">dev Ops</button>
+  <button className="btn">programing languages</button>
+  <button className="btn">mobile appliction development</button>
+  <button className="btn">technology and tools</button>
+  <button className="btn">get a job in a tech company</button>
+  <button className="btn">others</button>
   
-  <div class="card-container">
+  <div className="card-container">
     
-    <div class="card">
-      <div class="img-container">
+    <div className="card">
+      <div className="img-container">
         <img
-          class="img"
+          className="img"
           src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png"
           alt="img"
         />
@@ -36,11 +36,11 @@ function Main(){
         <h2 class="titile">
           Introduction To A Machine Learning Online Course
         </h2>
-        <p class="author">
-          <span class="author-text">EdYoda</span> |
-          <span class="date">16 jan 2022 </span>
+        <p className="author">
+          <span className="author-text">EdYoda</span> |
+          <span className="date">16 jan 2022 </span>
         </p>
-        <p class="card-text">
+        <p className="card-text">
           We have had an insight into Artificial Intelligence. Well, one
           of its subfields is machine learning and this introduction will
           help you get a fair idea of what a machine learning online
@@ -52,23 +52,23 @@ function Main(){
       </div>
     </div>
  
-    <div class="card">
-      <div class="img-container">
+    <div className="card">
+      <div className="img-container">
         <img
-          class="img"
+          className="img"
           src="https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1.png"
           alt="img"
         />
       </div>
-      <div class="text-contanier">
-        <h2 class="titile">
+      <div className="text-contanier">
+        <h2 className="titile">
           Practical Machine Learning with Python and Keras
         </h2>
-        <p class="author">
-          <span class="author-text">EdYoda</span> |
-          <span class="date">16 jan 2022 </span>
+        <p className="author">
+          <span className="author-text">EdYoda</span> |
+          <span className="date">16 jan 2022 </span>
         </p>
-        <p class="card-text">
+        <p className="card-text">
           Machine learning is a field of artificial intelligence that uses
           statistical techniques to give computer systems the ability to
           “learn” (e.g., progressively improve performance on a specific
@@ -80,21 +80,21 @@ function Main(){
       </div>
     </div>
     
-    <div class="card">
-      <div class="img-container">
+    <div className="card">
+      <div className="img-container">
         <img
-          class="img"
+          className="img"
           src="https://edyoda.s3.amazonaws.com/media/blog-images/what_is_isa_blog_1.png"
           alt="img"
         />
       </div>
-      <div class="text-contanier">
-        <h2 class="titile">What is Income Share Agreement?</h2>
-        <p class="author">
-          <span class="author-text">EdYoda</span> |
-          <span class="date">16 jan 2022 </span>
+      <div className="text-contanier">
+        <h2 className="titile">What is Income Share Agreement?</h2>
+        <p className="author">
+          <span className="author-text">EdYoda</span> |
+          <span className="date">16 jan 2022 </span>
         </p>
-        <p class="card-text">
+        <p className="card-text">
           “An income share agreement (or ISA) is a financial structure in
           which an individual or organization provides something of value
           (often a fixed amount of money) to a recipient who, in exchange,
@@ -106,21 +106,21 @@ function Main(){
       </div>
     </div>
    
-    <div class="card">
-      <div class="img-container">
+    <div className="card">
+      <div className="img-container">
         <img
-          class="img"
+          className="img"
           src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png"
           alt="img"
         />
       </div>
-      <div class="text-contanier">
-        <h2 class="titile">What is Web Scraping?</h2>
-        <p class="author">
-          <span class="author-text">EdYoda</span> |
-          <span class="date">16 jan 2022 </span>
+      <div className="text-contanier">
+        <h2 className="titile">What is Web Scraping?</h2>
+        <p className="author">
+          <span className="author-text">EdYoda</span> |
+          <span className="date">16 jan 2022 </span>
         </p>
-        <p class="card-text">
+        <p className="card-text">
           Simply put, web scraping is one of the tools developers use to
           gather and analyze information from the Internet. Some websites
           and platforms offer application programming interfaces (APIs)
@@ -133,23 +133,23 @@ function Main(){
       </div>
     </div>
    
-    <div class="card">
-      <div class="img-container">
+    <div className="card">
+      <div className="img-container">
         <img
-          class="img"
+          className="img"
           src="https://edyoda.s3.amazonaws.com/media/blog-images/7.png"
           alt="img"
         />
       </div>
-      <div class="text-contanier">
-        <h2 class="titile">
+      <div className="text-contanier">
+        <h2 className="titile">
           Importance of Data Backup and Recovery in the IT industry
         </h2>
-        <p class="author">
-          <span class="author-text">EdYoda</span> |
-          <span class="date">16 jan 2022 </span>
+        <p className="author">
+          <span className="author-text">EdYoda</span> |
+          <span className="date">16 jan 2022 </span>
         </p>
-        <p class="card-text">
+        <p className="card-text">
           A business must always introspect the areas where they lack in
           order to bring about a positive change in the work environment.
           One of the main precautions or a contingency plan that is
@@ -161,21 +161,21 @@ function Main(){
       </div>
     </div>
    
-    <div class="card">
-      <div class="img-container">
+    <div className="card">
+      <div className="img-container">
         <img
-          class="img"
+          className="img"
           src="https://edyoda.s3.amazonaws.com/media/blog-images/5.png"
           alt="img"
         />
       </div>
-      <div class="text-contanier">
-        <h2 class="titile">Breaking the Myths around Cybersecurity</h2>
-        <p class="author">
-          <span class="author-text">EdYoda</span> |
-          <span class="date">16 jan 2022 </span>
+      <div className="text-contanier">
+        <h2 className="titile">Breaking the Myths around Cybersecurity</h2>
+        <p className="author">
+          <span className="author-text">EdYoda</span> |
+          <span className="date">16 jan 2022 </span>
         </p>
-        <p class="card-text">
+        <p className="card-text">
           As the dependency on online platforms is increasing daily,
           cybersecurity is becoming an important concern for all companies
           today. The number of cyberattacks is ever-rising even after
@@ -188,23 +188,23 @@ function Main(){
       </div>
     </div>
     
-    <div class="card">
-      <div class="img-container">
+    <div className="card">
+      <div className="img-container">
         <img
-          class="img"
+          className="img"
           src="https://edyoda.s3.amazonaws.com/media/blog-images/3.png"
           alt="img"
         />
       </div>
-      <div class="text-contanier">
-        <h2 class="titile">
+      <div className="text-contanier">
+        <h2 className="titile">
           Challenges of Machine Learning in Big Data Analytics
         </h2>
-        <p class="author">
-          <span class="author-text">EdYoda</span> |
-          <span class="date">16 jan 2022 </span>
+        <p className="author">
+          <span className="author-text">EdYoda</span> |
+          <span className="date">16 jan 2022 </span>
         </p>
-        <p class="card-text">
+        <p className="card-text">
           Machine Learning is a subset of artificial intelligence which is
           an important part of computer science. The revolution of Big
           Data promises to transform the way we work, live and think by
@@ -217,23 +217,23 @@ function Main(){
       </div>
     </div>
    
-    <div class="card">
-      <div class="img-container">
+    <div className="card">
+      <div className="img-container">
         <img
-          class="img"
+          className="img"
           src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png"
           alt="img"
         />
       </div>
-      <div class="text-contanier">
-        <h2 class="titile">
+      <div className="text-contanier">
+        <h2 className="titile">
           Impact of Cloud Computing in various industries
         </h2>
-        <p class="author">
-          <span class="author-text">EdYoda</span> |
-          <span class="date">16 jan 2022 </span>
+        <p className="author">
+          <span className="author-text">EdYoda</span> |
+          <span className="date">16 jan 2022 </span>
         </p>
-        <p class="card-text">
+        <p className="card-text">
           Cloud computing has been rapidly gaining pace in the world of
           information technology. It has been observed that over 90% of
           global enterprises are using cloud technology as part of their
@@ -246,24 +246,24 @@ function Main(){
     </div>
     
    
-    <div class="card">
-      <div class="img-container">
+    <div className="card">
+      <div className="img-container">
         <img
-          class="img"
+          className="img"
           src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png"
           alt="img"
         />
       </div>
-      <div class="text-contanier">
-        <h2 class="titile">
+      <div className="text-contanier">
+        <h2 className="titile">
           LAMP Stack Vs MEAN stack: Choosing the right platform for your
           web application development
         </h2>
-        <p class="author">
-          <span class="author-text">EdYoda</span> |
-          <span class="date">16 jan 2022 </span>
+        <p className="author">
+          <span className="author-text">EdYoda</span> |
+          <span className="date">16 jan 2022 </span>
         </p>
-        <p class="card-text">
+        <p className="card-text">
           In todays dynamic world, rapid web application development with
           a smooth user interface that can adapt to specific features is
           the main business requirement. Many organizations around the
